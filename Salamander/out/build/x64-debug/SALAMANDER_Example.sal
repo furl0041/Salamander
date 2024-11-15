@@ -1,0 +1,10 @@
+// Salamander Example: 
+//
+mainF {
+	param {
+		num_i e;
+	}
+	logic {
+		printF(e);
+	}
+}

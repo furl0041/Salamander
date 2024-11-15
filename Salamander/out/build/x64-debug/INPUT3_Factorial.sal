@@ -1,0 +1,19 @@
+// Sofia Example 4:
+// Testing numbers (ex: factorial)
+mainF {
+	param {
+        	num_i i, n, f;
+	}
+	logic {
+        f=1;
+        i=1;
+        printf("Write a number:");
+        inputF(n);
+        while (i<n) do {
+            f = f * i;
+            i = i + 1;
+        };
+        printF("Factorial:");
+        printF(f);
+    }
+}

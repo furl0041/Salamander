@@ -1,0 +1,13 @@
+// Sofia Example 3:
+// Volume of a sphere
+mainF {
+	param {
+		num_f PI, r, Vol;
+	}
+	logic {
+		PI = 3.14;
+		inputF(r);
+		Vol = 4.0 / 3.0 * PI * (r * r * r);
+		printF(Vol);
+	}
+}

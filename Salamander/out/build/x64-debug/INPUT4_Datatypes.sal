@@ -1,0 +1,16 @@
+// Sofia Example
+// The program is lexically correct about the SOFIA city 
+mainF {
+	param {
+		num_i FoundationYear$;
+		num_f Area, HDI;
+		word_s CountryName@;
+	}
+	logic {
+		FoundationYear = -7000;
+		Area = 492.0;
+		HDI=0.871;
+		CountryName = "Bulgary";
+		printF(CountryName);
+	}
+}
