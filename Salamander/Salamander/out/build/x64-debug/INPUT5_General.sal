@@ -1,0 +1,33 @@
+// Salamander Example
+// The program is "lexically" correct and should not generate any error (based on Platypus from Svillen Ranev) #
+mainF {
+	param {
+		num_i $i;
+		num_f $a, $sum008;
+		word_s $text;
+	}
+	logic {
+		$a=+1.2;
+		$sum008 = 7.87050 ;
+		inputF($a,$sum008);
+		$i=0;
+		while ($i < 32767 || $i == 32767)do{
+			$i = $i + 2;
+			$a = $a * $i/0.5 ;
+			$sum008 = $sum008 + $a - 1 ;
+		};
+		if ($text == "")then {
+			$text = "prog" + "ram";
+		}
+		else {
+			$text = $text + "ram";
+		};
+		printF("\* This is a program -:)-<-<-- \*");
+		printF($text);
+		if ($text != "program" && $sum008==8.0 && $i>10) {
+			printF($sum008);
+			printF();
+		}
+		else{};
+	}
+}

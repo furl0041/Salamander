@@ -1,0 +1,12 @@
+// Salamander Example: 
+//
+mainF {
+	param {
+	num_i $e;
+	}
+	logic {
+		$e = 4;
+		printF("Hello\nWorld");
+		printF($e);
+	}
+}
